@@ -1,0 +1,22 @@
+#faulty calculator in python simply using if else condition
+num1 = int(input("enter the first number "))
+operator = input("enter the operator +,-,*,/ ")
+num2 = int(input("enter the second number "))
+if num1 ==45 and num2 ==3 and operator == '*':
+  print("50")
+elif num1 ==30 and num2 ==5 and operator =='+':
+  print("30")
+elif operator == '+':
+  num3=num1+num2
+  print(num3)
+elif operator == '-':
+  num3=num1-num2
+  print(num3)
+elif operator == '*':
+  num3=num1*num2
+  print(num3)
+elif operator == '/':
+  num3=num1/num2
+  print(num3)
+else:
+  print("enter the valid input")
